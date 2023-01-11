@@ -1,14 +1,25 @@
 .upper-header-port {
-width: 200px;
+width: auto;
 height: 100px;
 display: flex;
+justify-content: space-between;
 
 }
 
 
-
-.header-logo {
+.header-logo-box {
     width: auto;
-    height: 100px;
-    flex: 1;
+    height: auto;
+
+}
+.header-logo {
+    height: 50px;
+    width: auto;
+    
+    flex: 2;
+    margin-right: 100;
+}
+
+.upper-header-port.span {
+
 }
