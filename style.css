@@ -1,0 +1,14 @@
+.upper-header-port {
+width: 200px;
+height: 100px;
+display: flex;
+
+}
+
+
+
+.header-logo {
+    width: auto;
+    height: 100px;
+    flex: 1;
+}
