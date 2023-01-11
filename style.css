@@ -3,7 +3,8 @@ width: auto;
 height: 100px;
 display: flex;
 justify-content: space-between;
-
+background-color: darkblue;
+color: white;
 }
 
 
@@ -16,8 +17,19 @@ justify-content: space-between;
     height: 50px;
     width: auto;
     
-    flex: 2;
-    margin-right: 100;
+    flex: 1;
+    
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small;
+    width: 400px;
+}
+.header-buttons.span {
+    width: 100px;
+    padding: 20px;
 }
 
 .upper-header-port.span {
