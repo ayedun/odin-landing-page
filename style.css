@@ -2,7 +2,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-image: ;
 
+}
+
+
+
+.background-container {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    filter: brightness(1.2);
+    z-index: -2;;
 }
 
 .header-port {
