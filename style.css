@@ -1,3 +1,9 @@
+.header-port {
+    background-color: darkblue;
+    color: white;
+}
+
+
 .upper-header-port {
 width: auto;
 height: 100px;
@@ -5,6 +11,9 @@ display: flex;
 justify-content: space-between;
 background-color: darkblue;
 color: white;
+margin: 0;
+padding: 0;
+border: 0;
 }
 
 
@@ -32,6 +41,49 @@ color: white;
     padding: 20px;
 }
 
-.upper-header-port.span {
+.lower-header-port {
+    background-color: darkblue;
+    margin-top: 0;
+    height: 600px;
+    display: flex;
+
+}
+
+
+
+.left-side {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 120px;
+    width: 300px;
+    margin-right: 0;
+    flex: 1;
+    
+
+}
+
+.right-side {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-bottom: 120px;
+    width: auto;
+    height: auto;
+    flex: 1;
+}
+
+
+.left-side .signup-button {
+    width: 150px;
+    height: 50px;
+    background-color: lightblue;
+    border-radius: 25px;
+}
+
+
+
+
+.right-side .man-in-red {
+    width: 300px;
+    height: auto;
 
 }
